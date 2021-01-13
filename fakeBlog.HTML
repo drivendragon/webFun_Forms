@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Favorite Bernadoodle Blog</title>    
+    <meta name="This is a blog site." content="This site is about my favorite Bernadoodle.">
+</head>
+<body>
+    <div>
+        <h1>Shilo, my favorite Bernadoodle!</h1>
+        <img src="shiloh.jpg"alt="an image" height=100>
+        <br>
+        <a href="https://dogtime.com/dog-breeds/bernedoodle#/slide/1">Visit dogtime.com!</a>
+        <p>It is a long established fact that a reader will be distracted by the readable content 
+            of a page when looking at its layout. The point of using Lorem Ipsum is that it has a 
+            more-or-less normal distribution of letters, as opposed to using 'Content here, content here', 
+            making it look like readable English. Many desktop publishing packages and web page editors now 
+            use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web 
+            sites still in their infancy. Various versions have evolved over the years, sometimes by accident, 
+            sometimes on purpose (injected humour and the like).</p>
+    </div>
+    <div>
+        <table>
+            <thead>
+                <th>Potty Time</th>
+                <th>Eating Time</th>
+                <th>Games</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>8am - Potty Break</td>
+                    <td>9am - Breakfast</td>
+                    <td>Go Fetch</td>
+                </tr>
+                <tr>
+                    <td>10am - Potty Break</td>
+                    <td>1pm - Lunch</td>
+                    <td>Soccer in the grass</td>
+                </tr>
+                <tr>
+                    <td>12pm - Potty Break</td>
+                    <td>4pm - Dinner</td>
+                    <td>Dance for a treat</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <ol>
+            <li>bark</li>
+            <li>jump</li>
+            <li>sit</li>
+            <li>stay</li>
+            <li>paw</li>
+        </ol>
+        <ul>
+            <li>list item</li>
+            <li>list item</li>
+            <li>list item</li>
+            <li>list item</li>
+            <li>list item</li>
+        </ul>
+    </div>
+    <div>
+        <form action="process.php" method="post">
+            <p>Please Register to my Bernadoodle Blog: </p>
+            <hr>
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name">
+        
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name">
+        
+            <hr>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+
+            <hr>
+            <p>Select your Bernadoodle's gender:</p>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+        
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            
+            <label for="decline">Prefer not to say</label>
+            <input type="radio" id="decline" name="gender" value="decline">
+
+            <hr>
+            <p>Select your Bernadoodle's favorite treat :</p>
+            <input type="checkbox" id="bacon" name=bacon" value="bacon">
+            <label for="bacon"> Love bacon!</label><br>
+            <input type="checkbox" id="bones" name="bones" value="bones">
+            <label for="bones"> Loves bones!</label><br>
+            <input type="checkbox" id="everything" name="everything" value="everything">
+            <label for="everything"> Loves everything!</label><br>
+            
+            <hr>
+            <p>Please share why you love Bernadoodles:</p>
+            <textarea name="description"></textarea>
+
+            <hr>
+            <label for="coat">Select your Bernadoodle's Coat Type:</label>
+            <select name="coat" id="coat">
+            <option value="tricolor">TriColor</option>
+            <option value="allBlack">All Black</option>
+            <option value="merle">Merle</option>
+            </select>
+            
+            <hr>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
