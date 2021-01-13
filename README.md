@@ -1,6 +1,6 @@
 "# webFun_Forms" 
 
-Coding Dojo Class Assignment: registrationForm.HTML
+Coding Dojo Class Assignment: registrationForm.HTML and fakeBlog.HTML
 <br>
 Developer: Jaime Lizarazu
 <br>
