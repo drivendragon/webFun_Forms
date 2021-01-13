@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>    
+    <meta name="This is a registration form." content="Site to gather registration information.">
+</head>
+<body>
+    <form action="process.php" method="post">
+        <p>Please Register</p>
+        <hr>
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name">
+    
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name">
+    
+        <hr>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+
+        <hr>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        
+        <label for="pw_confirm">Password Confirmation:</label>
+        <input type="password" id="pw_confirm" name="password_confirmation">
+        
+        <hr>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday">
+
+        <hr>
+        <p>Select your gender:</p>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+    
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+        
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="gender" value="other">
+
+        <label for="decline">Prefer not to say</label>
+        <input type="radio" id="decline" name="gender" value="decline">
+     
+        <hr>
+        <p>Please provide a short description about yourself:</p>
+        <textarea name="description"></textarea>
+
+        <hr>
+        <label for="language">Favorite Language:</label>
+        <select name="language" id="language">
+        <option value="javascript">javascript</option>
+        <option value="python">Python</option>
+        <option value="ruby">Ruby</option>
+        </select>
+        
+        <hr>
+        <input type="submit" value="Click here to register">
+    </form>
+</body>
+</html>
+
